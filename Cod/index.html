@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="headline"><h1>Заголовок!</h1></header>
+    <div>
+        <p class="tagline">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque voluptatem ipsa ea culpa eveniet. 
+        </p>
+        <p class="punchline">
+            Harum eligendi consequuntur enim obcaecati repellendus sed veritatis mollitia consequatur temporibus recusandae, 
+            sequi omnis porro voluptatibus.
+        </p>
+    </div>
+    <footer class="headline"><h2>Текст подвала.</h2></footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script> 
+        ScrollReveal().reveal('.headline');
+        ScrollReveal().reveal('.tagline', { delay: 500 });
+        ScrollReveal().reveal('.punchline', { delay: 2000 });
+    </script>
+</body>
+</html>
